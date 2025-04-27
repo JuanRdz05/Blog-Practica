@@ -1,0 +1,38 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body
+{
+    background-color: hsl(47, 88%, 63%);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tarjeta
+{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    align-items: center;
+    align-content: center;
+    background-color: white;
+    border-radius: 10px;
+    border-top: 4px black solid;
+    border-right: 8px black solid;
+    border-bottom: 8px black solid;
+    border-left: 2px black solid;
+}
+
+.imagen-tarjeta img
+{
+    border-radius: 10px;
+    left: 50%;
+    
+}
+
+.tarjeta-contenido
+{
+    text-align: left;
+    margin: 10px 20px;
+}
+
